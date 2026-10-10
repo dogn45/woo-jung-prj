@@ -1,0 +1,11 @@
+NIGHT SHIFT v0.2
+
+- Added scenes/store_editable.tscn
+- Moved major store geometry out of runtime-only world_builder generation
+- Added editable box nodes that can be selected/moved/scaled in the Godot editor
+- Added interaction Marker3D anchors (I_*) so grouped layout moves keep interaction points aligned
+- Added door hinge markers (H_*)
+- Existing gameplay systems preserved: player, hands, time, tasks, customer, POS, CCTV, save/load
+- CCTV stand and checkout order placement now follow their interaction anchor positions
+
+Open scenes/store_editable.tscn to edit the layout.

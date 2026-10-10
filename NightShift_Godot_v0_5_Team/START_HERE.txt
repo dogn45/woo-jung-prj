@@ -1,0 +1,4 @@
+project.godot 열고 F5 → 새 근무
+TEAM_GUIDE_KO.md부터 읽어 주세요
+비주얼 수정은 visuals/의 씬과 재질/설정 파일
+손님 이벤트는 gameplay/customer/Customer.tscn과 customer.gd

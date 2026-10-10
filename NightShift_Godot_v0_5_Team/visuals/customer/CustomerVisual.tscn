@@ -1,0 +1,258 @@
+[gd_scene load_steps=28 format=3]
+
+[ext_resource type="Texture2D" path="res://visuals/customer/face.png" id="1_ikupx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5n6ut"]
+albedo_color = Color(0.552941, 0.470588, 0.407843, 1)
+roughness = 0.72
+
+[sub_resource type="BoxMesh" id="BoxMesh_podo4"]
+size = Vector3(0.45, 0.6, 0.25)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gunfy"]
+albedo_color = Color(0.701961, 0.639216, 0.584314, 1)
+roughness = 0.72
+
+[sub_resource type="SphereMesh" id="SphereMesh_dmfpv"]
+radial_segments = 32
+rings = 20
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1b8vr"]
+albedo_texture = ExtResource("1_ikupx")
+roughness = 0.95
+
+[sub_resource type="QuadMesh" id="QuadMesh_otlqi"]
+size = Vector2(0.265, 0.35)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t7v6d"]
+albedo_color = Color(0.141176, 0.137255, 0.133333, 1)
+roughness = 0.72
+
+[sub_resource type="SphereMesh" id="SphereMesh_c71ui"]
+radial_segments = 32
+rings = 20
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m4dpn"]
+albedo_color = Color(0.701961, 0.639216, 0.584314, 1)
+roughness = 0.72
+
+[sub_resource type="SphereMesh" id="SphereMesh_2pmmp"]
+radial_segments = 32
+rings = 20
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yk1da"]
+albedo_color = Color(0.701961, 0.639216, 0.584314, 1)
+roughness = 0.72
+
+[sub_resource type="SphereMesh" id="SphereMesh_1bswe"]
+radial_segments = 32
+rings = 20
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tmntl"]
+albedo_color = Color(0.156863, 0.207843, 0.258824, 1)
+roughness = 0.72
+
+[sub_resource type="BoxMesh" id="BoxMesh_lgqv1"]
+size = Vector3(0.17, 0.8, 0.2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dk4ca"]
+albedo_color = Color(0.552941, 0.470588, 0.407843, 1)
+roughness = 0.72
+
+[sub_resource type="BoxMesh" id="BoxMesh_4glit"]
+size = Vector3(0.14, 0.63, 0.18)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_is2cx"]
+albedo_color = Color(0.156863, 0.207843, 0.258824, 1)
+roughness = 0.72
+
+[sub_resource type="BoxMesh" id="BoxMesh_8ttwh"]
+size = Vector3(0.17, 0.8, 0.2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_djvrm"]
+albedo_color = Color(0.552941, 0.470588, 0.407843, 1)
+roughness = 0.72
+
+[sub_resource type="BoxMesh" id="BoxMesh_tabph"]
+size = Vector3(0.14, 0.63, 0.18)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_img03"]
+albedo_color = Color(0.694118, 0.54902, 0.67451, 1)
+roughness = 0.72
+
+[sub_resource type="BoxMesh" id="BoxMesh_tksr4"]
+size = Vector3(0.18, 0.3, 0.18)
+
+[sub_resource type="Animation" id="Animation_ikupx"]
+length = 0.8
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LeftLeg:rotation:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("RightLeg:rotation:x")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+
+[sub_resource type="Animation" id="Animation_5n6ut"]
+length = 0.8
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LeftLeg:rotation:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.32, 3.91887e-17, -0.32, -7.83774e-17]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("RightLeg:rotation:x")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.32, -3.91887e-17, 0.32, 7.83774e-17]
+}
+
+[sub_resource type="Animation" id="Animation_podo4"]
+length = 0.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LeftLeg:rotation:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.125, 0.25, 0.375, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.5, 6.12323e-17, -0.5, -1.22465e-16]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("RightLeg:rotation:x")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.125, 0.25, 0.375, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.5, -6.12323e-17, 0.5, 1.22465e-16]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_gunfy"]
+_data = {
+&"idle": SubResource("Animation_ikupx"),
+&"run": SubResource("Animation_podo4"),
+&"walk": SubResource("Animation_5n6ut")
+}
+
+[node name="CustomerVisual" type="Node3D"]
+
+[node name="@Node3D@1156" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2, 0)
+
+[node name="@MeshInstance3D@1157" type="MeshInstance3D" parent="@Node3D@1156"]
+material_override = SubResource("StandardMaterial3D_5n6ut")
+mesh = SubResource("BoxMesh_podo4")
+
+[node name="CustomerFace" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.69, 0)
+
+[node name="Head" type="MeshInstance3D" parent="CustomerFace"]
+transform = Transform3D(0.28, 0, 0, 0, 0.36, 0, 0, 0, 0.25, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_gunfy")
+mesh = SubResource("SphereMesh_dmfpv")
+
+[node name="PhotoFace" type="MeshInstance3D" parent="CustomerFace"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, -0.128)
+material_override = SubResource("StandardMaterial3D_1b8vr")
+mesh = SubResource("QuadMesh_otlqi")
+
+[node name="Hair" type="MeshInstance3D" parent="CustomerFace"]
+transform = Transform3D(0.29, 0, 0, 0, 0.16, 0, 0, 0, 0.24, 0, 0.12, 0.03)
+material_override = SubResource("StandardMaterial3D_t7v6d")
+mesh = SubResource("SphereMesh_c71ui")
+
+[node name="Ear" type="MeshInstance3D" parent="CustomerFace"]
+transform = Transform3D(0.04, 0, 0, 0, 0.075, 0, 0, 0, 0.04, -0.145, 0, 0)
+material_override = SubResource("StandardMaterial3D_m4dpn")
+mesh = SubResource("SphereMesh_2pmmp")
+
+[node name="@MeshInstance3D@1158" type="MeshInstance3D" parent="CustomerFace"]
+transform = Transform3D(0.04, 0, 0, 0, 0.075, 0, 0, 0, 0.04, 0.145, 0, 0)
+material_override = SubResource("StandardMaterial3D_yk1da")
+mesh = SubResource("SphereMesh_1bswe")
+
+[node name="LeftLeg" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.12, 0.9, 0)
+
+[node name="@Node3D@1160" type="Node3D" parent="LeftLeg"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.4, 0)
+
+[node name="@MeshInstance3D@1161" type="MeshInstance3D" parent="LeftLeg/@Node3D@1160"]
+material_override = SubResource("StandardMaterial3D_tmntl")
+mesh = SubResource("BoxMesh_lgqv1")
+
+[node name="@Node3D@1162" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3, 1.05, 0)
+
+[node name="@MeshInstance3D@1163" type="MeshInstance3D" parent="@Node3D@1162"]
+material_override = SubResource("StandardMaterial3D_dk4ca")
+mesh = SubResource("BoxMesh_4glit")
+
+[node name="RightLeg" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.12, 0.9, 0)
+
+[node name="@Node3D@1165" type="Node3D" parent="RightLeg"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.4, 0)
+
+[node name="@MeshInstance3D@1166" type="MeshInstance3D" parent="RightLeg/@Node3D@1165"]
+material_override = SubResource("StandardMaterial3D_is2cx")
+mesh = SubResource("BoxMesh_8ttwh")
+
+[node name="@Node3D@1167" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3, 1.05, 0)
+
+[node name="@MeshInstance3D@1168" type="MeshInstance3D" parent="@Node3D@1167"]
+material_override = SubResource("StandardMaterial3D_djvrm")
+mesh = SubResource("BoxMesh_tabph")
+
+[node name="Carry" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3, 0.9, -0.2)
+
+[node name="@MeshInstance3D@1170" type="MeshInstance3D" parent="Carry"]
+material_override = SubResource("StandardMaterial3D_img03")
+mesh = SubResource("BoxMesh_tksr4")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_gunfy")
+}

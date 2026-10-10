@@ -1,0 +1,46 @@
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+PASS: Editable environment visual scene loaded
+PASS: Visual animation contract exists
+PASS: Player tuning resource loaded
+PASS: Original face photo material exists
+PASS: Left counter POS faces clerk on west side
+PASS: CCTV is to clerk right
+PASS: Modeled customer face exists
+PASS: Counter device dimensions are positive
+PASS: POS and scanner are separated
+PASS: World and all interactable IDs built
+PASS: Visible body and independent hands exist
+PASS: Empty hand can grab
+PASS: Two different items held simultaneously
+PASS: Full hand cannot duplicate/pick another item
+PASS: Three stock slots complete task
+PASS: Placed object restores parent and collision
+PASS: Door opens in actual world
+PASS: Door closes
+PASS: Scanner reads held order
+PASS: POS requires free hand
+PASS: Payment completes and releases customer
+PASS: Purchased item removed from hand without duplication
+PASS: Waste disposal
+PASS: Breaker disables lighting
+PASS: CCTV shares live world and switches to fifth view
+PASS: Save writes complete JSON
+PASS: Saved state loads
+PASS: Both hand attachments restored
+PASS: Position and clock restored
+PASS: Task and slot occupancy restored
+PASS: Door state restores actual rotation
+PASS: NPC finite state and waypoint restored
+PASS: Corrupt save rejected
+PASS: Ray finds visible storage door
+PASS: Closed door blocks player
+PASS: Opened doorway is passable
+PASS: Ray detects stocked drink from actual first-person camera
+PASS: Animated Reach -> Grab -> Hold completes
+PASS: Release drops held item
+PASS: Customer walks in, browses and presents an order
+PASS: 07:00 caps clock and finishes shift
+RESULT: 41/41 passed
+
+실제 렌더 화면은 디스플레이 서버가 없어 미검증

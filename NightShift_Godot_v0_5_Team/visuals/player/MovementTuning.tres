@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="NSMovementTuning" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/movement_tuning.gd" id="1"]
+[resource]
+script = ExtResource("1")
+walk_speed = 2.35
+run_speed = 3.6
+fov = 77.0
+stride_rate = 4.1
+leg_swing = 0.34
+head_bob = 0.009
