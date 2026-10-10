@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1791645310
+::res://::1791645451
 CHANGELOG_v0_2.txt::TextFile::-1::1791644214::0::1::::<><><>0<>0<><>::
 EDIT_LAYOUT_KO.txt::TextFile::-1::1791644214::0::1::::<><><>0<>0<><>::
 main.tscn::PackedScene::-1::1791644214::0::1::::<><><>0<>0<><>::res://scripts/game.gd
@@ -8,7 +8,7 @@ START_HERE.txt::TextFile::-1::1791644214::0::1::::<><><>0<>0<><>::
 TEAM_GUIDE_KO.md::TextFile::-1::1791644214::0::1::::<><><>0<>0<><>::
 VALIDATION.txt::TextFile::-1::1791644214::0::1::::<><><>0<>0<><>::
 VERSION.txt::TextFile::-1::1791644214::0::1::::<><><>0<>0<><>::
-::res://assets/::1791644223
+::res://assets/::1791645311
 beep.wav::AudioStreamWAV::8966325592231744679::1791644214::1791645311::1::::<><><>0<>0<>a44100fef7363e0beff7c29a77f36e4c<>res://.godot/imported/beep.wav-93adf45e6f8c6fdd3c996199d0933874.sample::
 click.wav::AudioStreamWAV::1026667482264364267::1791644214::1791645311::1::::<><><>0<>0<>3e0dd7f131afee652de9b1edbbfab07e<>res://.godot/imported/click.wav-13128baef52c72ac8e7a4a43a5dfcf1a.sample::
 door.wav::AudioStreamWAV::3071018508207834941::1791644214::1791645311::1::::<><><>0<>0<>c4b05d328fcbef4552d3bda35de14159<>res://.godot/imported/door.wav-6ee8931851ee929daba5e35e9d0f564f.sample::
@@ -46,7 +46,7 @@ world_builder.gd::GDScript::3774331409955684505::1791644214::0::1::::NSWorldBuil
 capture.gd::GDScript::5209062271620494534::1791644214::0::1::::<>SceneTree<><>0<>0<><>::
 smoke.gd::GDScript::737523668277869564::1791644214::0::1::::<>SceneTree<><>0<>0<><>::
 ::res://visuals/::1791644223
-::res://visuals/customer/::1791644223
+::res://visuals/customer/::1791645311
 CustomerVisual.tscn::PackedScene::-1::1791644214::0::1::::<><><>0<>0<><>::res://visuals/customer/face.png
 face.png::CompressedTexture2D::2741819235625524360::1791644214::1791645311::1::::<><><>0<>0<>385872081efed386b1776a8e5f61ed72<>res://.godot/imported/face.png-2e22e6272cc07d3d51d45ce0e0d20388.ctex::
 ::res://visuals/environment/::1791644223
