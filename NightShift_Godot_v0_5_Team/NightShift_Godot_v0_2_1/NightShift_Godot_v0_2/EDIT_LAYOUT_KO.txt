@@ -1,0 +1,19 @@
+NIGHT SHIFT v0.2 - EDITABLE LAYOUT
+
+이번 버전 핵심
+- 기존 world_builder.gd가 코드로 만들던 큰 구조물을 실제 Godot 씬으로 분리했습니다.
+- scenes/store_editable.tscn 을 열면 벽/계산대/선반/냉장고 영역/창고/화장실/야외를 Scene 트리에서 직접 클릭하고 이동할 수 있습니다.
+- 게임 시스템(양손, POS, CCTV, 시간, 손님, 저장)은 기존 코드를 유지합니다.
+
+처음 할 일
+1. Godot에서 scenes/store_editable.tscn 을 엽니다.
+2. 3D 탭에서 원하는 노드를 선택합니다.
+3. W = 이동, E = 회전, R = 크기 조절을 사용합니다.
+4. 우선 CounterZone, Shelves, CoolerZone, StorageZone, Outside 같은 상위 그룹 단위로 움직이는 것을 추천합니다.
+5. 각 그룹 안의 I_... Marker3D는 상호작용 위치입니다. 그룹을 통째로 움직이면 인터랙션도 같이 따라갑니다.
+6. H_front_door / H_rear_door / H_stock_door / H_toilet_door는 문 힌지 기준점입니다.
+
+주의
+- 개별 메쉬만 옮기고 같은 그룹의 Marker3D를 안 옮기면 손 상호작용 위치가 어긋날 수 있습니다.
+- 지금 모델은 여전히 프로토타입 박스입니다. 다음 단계에서 각 EditableBox를 GLB/고퀄 에셋으로 교체하면 됩니다.
+- v0.2 목적은 그래픽 완성이 아니라 '내가 에디터에서 직접 배치 가능한 구조'로 바꾸는 것입니다.
